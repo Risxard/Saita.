@@ -11,11 +11,11 @@
 </head>
 <body>
     <header>
-    <span class="circle"></span>
-    <div class="Cabecalho_principal">
-        <div class="cabecalho_container">
-                <p>Saita.</p>
-            <div class="menus_container">
+    <span class="circulo-container"><img class="circle" src="/css/imgs/Circle.svg" alt=""></span>
+    
+    <button id="btn-menu">Botão</button>
+        <div id="modal-menu">
+            <div class="mobile-menus">
                 <a href="#">Inicio</a>
                 <a href="#">Sobre</a>
                 <a href="#">Trabalho</a>
@@ -25,14 +25,19 @@
                 <a href="#">Contato</a>
             </div>
         </div>
-        <div class="hamburger_menu">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Trabalho</a>
-            <a href="#">Serviços</a>
-            <a href="#">Preços</a>
-            <a href="#">Blog</a>
-            <a href="#">Contato</a>
+
+    <div class="Cabecalho_principal">
+        <div class="cabecalho_container">
+                <span class="Logo-text"><a href="">Saita.</a></span>
+            <div class="menus_container">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Trabalho</a>
+                <a href="#">Serviços</a>
+                <a href="#">Preços</a>
+                <a href="#">Blog</a>
+                <a href="#">Contato</a>
+            </div>
         </div>
         <div class="cabecalho_container2">
             <div class="intro_container">
@@ -49,11 +54,19 @@
             <img src="/css/imgs/solucoes.png" alt="">
         </div>
     </div>
+        <div class="modal">
+        <div class="video-container">
+            <svg class="close" onclick="toggle()" viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+                <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 
+                185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/></svg>
+            <iframe src="https://player.vimeo.com/video/664055818?h=b75701145e" width="640" height="360" frameborder="0" allow=" autoplay; fullscreen; picture-in-picture"></iframe>
+        </div>
+    </div>
     </header>
-
+    
     <main>
         <div class="container-conteudo">
-            <div class="container-imagem1"><img src="/css/imgs/Working.jpg" alt="imagem1" width="350px" height="350px"></div>
+            <div class="container-imagem1"><img src="/css/imgs/Working.jpg" loading="lazy" alt="imagem1" width="350px" height="350px" ></div>
             <div class="container-principal-texto1">
                 <h1>SOBRE NÓS</h1>
                 <h3>Nós projetamos, construímos marcas e projetos digitais</h3>
@@ -73,14 +86,6 @@
             </div>
         </div>
         </div>
-    <div class="modal">
-        <div class="video-container">
-            <svg class="close" onclick="toggle()" viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
-                <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 
-                185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/></svg>
-            <iframe src="https://player.vimeo.com/video/664055818?h=b75701145e" width="640" height="360" frameborder="0" allow=" autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
     </main>
 
     <footer>
