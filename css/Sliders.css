@@ -1,0 +1,10 @@
+/* SLIDER "TRABALHO" */
+
+.uttPanel {
+	width: 300px;
+	border: 1px solid red;
+}
+
+.uttPanel div {
+	text-align: center;
+}
